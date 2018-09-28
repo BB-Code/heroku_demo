@@ -43,4 +43,12 @@ app.get('/', function (req, res, next) {
     });
 });
 ```
+## 部署在heroku
 
+- 去官网下载 Heroku-cli
+- heroku login
+- cd 项目下,heroku create
+- git add . && git commit -m "xxx"
+- git remote -v 检查项目源
+- git push heroku master
+- 查看结果 heroku open
